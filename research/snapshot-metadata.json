@@ -1,0 +1,15 @@
+{
+  "retrieved_on": "2026-10-11",
+  "timezone": "Asia/Shanghai",
+  "source_page": "https://www.kards.com/zh/decks/collection",
+  "public_data_endpoint": "https://herokuapi.kards.com/graphql",
+  "game_version": {
+    "id": 218,
+    "name": "v53 - Ring of fire"
+  },
+  "total_records": 1646,
+  "default_collection_records": 954,
+  "collection_with_reserve_records": 1517,
+  "note": "官网公开卡库快照；不代表每条都可加入卡组。规则全文和美术未复制。属性保留原始标记，OnlySpawnable 不能单独用于判断主卡可收集性；以卡库筛选成员关系为准。",
+  "query": "cards(language:\"zh\", first:2000, offset:0, showSpawnables:true, showExiles:true, showReserved:true) { pageInfo { count hasNextPage } edges { node { id cardId importId json reserved } } }"
+}

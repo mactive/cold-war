@@ -1,0 +1,18 @@
+{
+  "errors": [],
+  "checks": [
+    "press highlights HQ",
+    "curved aiming and snap",
+    "hold does not attack",
+    "release flight then impact damage",
+    "busy blocks end turn",
+    "one attack saved across reload",
+    "empty release cancels",
+    "Escape cancels",
+    "guard target validation",
+    "click compatibility",
+    "1280x720 alignment",
+    "keyboard blocked during flight",
+    "AI projectile and impact"
+  ]
+}

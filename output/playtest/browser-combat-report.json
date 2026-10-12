@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "checks": [
+    "tank moves then attacks HQ",
+    "support tank can target and destroy adjacent frontline guards",
+    "GPS two-step targeting",
+    "locked ATACMS six damage",
+    "counter activate/disarm refund",
+    "deck edits save only at 39 cards"
+  ]
+}

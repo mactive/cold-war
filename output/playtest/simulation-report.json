@@ -1,0 +1,13 @@
+{
+  "games": 100,
+  "wins": {
+    "N": 96,
+    "W": 4
+  },
+  "draws": 0,
+  "timeouts": 0,
+  "maxTurn": 43,
+  "totalTurns": 2718,
+  "errors": [],
+  "averageTurns": 27.18
+}

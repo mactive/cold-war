@@ -1,0 +1,197 @@
+
+> coldwar-frontline@0.1.0 pretest
+> npm run import
+
+
+> coldwar-frontline@0.1.0 import
+> node scripts/import-cards.mjs
+
+Imported 80 cards from CSV.
+
+> coldwar-frontline@0.1.0 test
+> node --test tests/*.test.js
+
+TAP version 13
+# Subtest: CSV import provides exactly 80 unique cards and legal 39-card starter decks
+ok 1 - CSV import provides exactly 80 unique cards and legal 39-card starter decks
+  ---
+  duration_ms: 1.476542
+  type: 'test'
+  ...
+# Subtest: deployment and actions share resources; normal units wait; blitz tank can move and attack
+ok 2 - deployment and actions share resources; normal units wait; blitz tank can move and attack
+  ---
+  duration_ms: 1.47725
+  type: 'test'
+  ...
+# Subtest: infantry cannot attack after moving; occupied enemy front blocks movement
+ok 3 - infantry cannot attack after moving; occupied enemy front blocks movement
+  ---
+  duration_ms: 0.236917
+  type: 'test'
+  ...
+# Subtest: support line and token generation obey capacity limits
+ok 4 - support line and token generation obey capacity limits
+  ---
+  duration_ms: 0.217792
+  type: 'test'
+  ...
+# Subtest: guard protects adjacent HQ and units, artillery bypasses guard
+ok 5 - guard protects adjacent HQ and units, artillery bypasses guard
+  ---
+  duration_ms: 0.255708
+  type: 'test'
+  ...
+# Subtest: adjacent frontline guards remain attackable by a support tank and fighter
+ok 6 - adjacent frontline guards remain attackable by a support tank and fighter
+  ---
+  duration_ms: 0.685709
+  type: 'test'
+  ...
+# Subtest: rear guards do not guard one another and their smoke still prevents attacks
+ok 7 - rear guards do not guard one another and their smoke still prevents attacks
+  ---
+  duration_ms: 0.50425
+  type: 'test'
+  ...
+# Subtest: smoke prevents unit targeting; order damage bypasses armor and smoke
+ok 8 - smoke prevents unit targeting; order damage bypasses armor and smoke
+  ---
+  duration_ms: 0.4285
+  type: 'test'
+  ...
+# Subtest: armor reduces battle damage and artillery receives no return fire
+ok 9 - armor reduces battle damage and artillery receives no return fire
+  ---
+  duration_ms: 0.327333
+  type: 'test'
+  ...
+# Subtest: fighters shield their row from bombers until removed
+ok 10 - fighters shield their row from bombers until removed
+  ---
+  duration_ms: 0.713083
+  type: 'test'
+  ...
+# Subtest: ambush kills attacker first; shock suppresses ambush for first attack
+ok 11 - ambush kills attacker first; shock suppresses ambush for first attack
+  ---
+  duration_ms: 0.493125
+  type: 'test'
+  ...
+# Subtest: lock damage bonus ends at the end of the casting turn
+ok 12 - lock damage bonus ends at the end of the casting turn
+  ---
+  duration_ms: 0.370917
+  type: 'test'
+  ...
+# Subtest: pin lasts through enemy turn; temporary attack buffs expire
+ok 13 - pin lasts through enemy turn; temporary attack buffs expire
+  ---
+  duration_ms: 0.492667
+  type: 'test'
+  ...
+# Subtest: withdraw resets damage and buffs; mind control preserves permanent damage/buffs and cannot act
+ok 14 - withdraw resets damage and buffs; mind control preserves permanent damage/buffs and cannot act
+  ---
+  duration_ms: 0.242083
+  type: 'test'
+  ...
+# Subtest: death summons reserve but returning a card does not
+ok 15 - death summons reserve but returning a card does not
+  ---
+  duration_ms: 0.14975
+  type: 'test'
+  ...
+# Subtest: counter N-37 cancels deployment effect but preserves body
+ok 16 - counter N-37 cancels deployment effect but preserves body
+  ---
+  duration_ms: 0.130041
+  type: 'test'
+  ...
+# Subtest: counter N-38 returns defender before combat; attacker pays
+ok 17 - counter N-38 returns defender before combat; attacker pays
+  ---
+  duration_ms: 0.118917
+  type: 'test'
+  ...
+# Subtest: counter N-39 destroys fragile plane before damage
+ok 18 - counter N-39 destroys fragile plane before damage
+  ---
+  duration_ms: 0.105584
+  type: 'test'
+  ...
+# Subtest: order cancellation consumes resources but cancels all effects
+ok 19 - order cancellation consumes resources but cancels all effects
+  ---
+  duration_ms: 0.180584
+  type: 'test'
+  ...
+# Subtest: counter W-37 stops tank after movement only for current turn
+ok 20 - counter W-37 stops tank after movement only for current turn
+  ---
+  duration_ms: 0.118083
+  type: 'test'
+  ...
+# Subtest: counter W-39 intercepts aircraft on deployment; surviving body resolves
+ok 21 - counter W-39 intercepts aircraft on deployment; surviving body resolves
+  ---
+  duration_ms: 0.105542
+  type: 'test'
+  ...
+# Subtest: counter W-40 cancels only reveal, not satellite lock or draw
+ok 22 - counter W-40 cancels only reveal, not satellite lock or draw
+  ---
+  duration_ms: 0.144917
+  type: 'test'
+  ...
+# Subtest: fatigue grows; overflow never increases hand count
+ok 23 - fatigue grows; overflow never increases hand count
+  ---
+  duration_ms: 0.204583
+  type: 'test'
+  ...
+# Subtest: invalid action is rejected without mutating the state
+ok 24 - invalid action is rejected without mutating the state
+  ---
+  duration_ms: 0.129292
+  type: 'test'
+  ...
+# Subtest: all 80 cards can be played in valid representative states without broken invariants
+ok 25 - all 80 cards can be played in valid representative states without broken invariants
+  ---
+  duration_ms: 7.836334
+  type: 'test'
+  ...
+# Subtest: seeded matches replay identically and complete with invariant checks
+ok 26 - seeded matches replay identically and complete with invariant checks
+  ---
+  duration_ms: 7.032667
+  type: 'test'
+  ...
+# Subtest: air-land battle permanently buffs both units but its free operations expire
+ok 27 - air-land battle permanently buffs both units but its free operations expire
+  ---
+  duration_ms: 0.2245
+  type: 'test'
+  ...
+# Subtest: submarine deployment tax applies to only first unit of the next enemy turn
+ok 28 - submarine deployment tax applies to only first unit of the next enemy turn
+  ---
+  duration_ms: 0.369167
+  type: 'test'
+  ...
+# Subtest: splash snapshots neighbors and death cleanup makes room for reserves
+ok 29 - splash snapshots neighbors and death cleanup makes room for reserves
+  ---
+  duration_ms: 0.199125
+  type: 'test'
+  ...
+1..29
+# tests 29
+# suites 0
+# pass 29
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 91.53825

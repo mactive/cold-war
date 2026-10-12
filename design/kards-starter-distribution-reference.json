@@ -1,0 +1,451 @@
+{
+  "retrieved_on": "2026-10-11",
+  "note": "官方历史改进初始牌组；不是首发当天初始牌组。仅保留卡名索引、类型、费用与重复数，不复制效果文本。",
+  "decks": [
+    {
+      "id": 7442,
+      "name": "Improved USA starter deck",
+      "version": {
+        "id": 132,
+        "name": "v31 - winter war"
+      },
+      "url": "https://www.kards.com/decks/7442",
+      "count": 39,
+      "type_counts": {
+        "infantry": 10,
+        "order": 16,
+        "fighter": 4,
+        "tank": 5,
+        "bomber": 4
+      },
+      "cost_counts": {
+        "1": 5,
+        "2": 7,
+        "3": 8,
+        "4": 6,
+        "5": 8,
+        "6": 2,
+        "7": 2,
+        "9": 1
+      },
+      "cards": [
+        {
+          "id": "26th_infantry_regiment",
+          "type": "infantry",
+          "cost": 4
+        },
+        {
+          "id": "26th_infantry_regiment",
+          "type": "infantry",
+          "cost": 4
+        },
+        {
+          "id": "convoy_hx_175",
+          "type": "order",
+          "cost": 3
+        },
+        {
+          "id": "convoy_hx_175",
+          "type": "order",
+          "cost": 3
+        },
+        {
+          "id": "convoy_hx_175",
+          "type": "order",
+          "cost": 3
+        },
+        {
+          "id": "convoy_hx_175",
+          "type": "order",
+          "cost": 3
+        },
+        {
+          "id": "spitfire_mk_ia",
+          "type": "fighter",
+          "cost": 5
+        },
+        {
+          "id": "spitfire_mk_ia",
+          "type": "fighter",
+          "cost": 5
+        },
+        {
+          "id": "we_can_do_it",
+          "type": "order",
+          "cost": 5
+        },
+        {
+          "id": "we_can_do_it",
+          "type": "order",
+          "cost": 5
+        },
+        {
+          "id": "corsair_f4u1c",
+          "type": "fighter",
+          "cost": 5
+        },
+        {
+          "id": "corsair_f4u1c",
+          "type": "fighter",
+          "cost": 5
+        },
+        {
+          "id": "lancashire_fusiliers",
+          "type": "infantry",
+          "cost": 4
+        },
+        {
+          "id": "lancashire_fusiliers",
+          "type": "infantry",
+          "cost": 4
+        },
+        {
+          "id": "30th_regiment",
+          "type": "infantry",
+          "cost": 3
+        },
+        {
+          "id": "30th_regiment",
+          "type": "infantry",
+          "cost": 3
+        },
+        {
+          "id": "m16_halftrack",
+          "type": "tank",
+          "cost": 3
+        },
+        {
+          "id": "m16_halftrack",
+          "type": "tank",
+          "cost": 3
+        },
+        {
+          "id": "17th_infantry_regiment",
+          "type": "infantry",
+          "cost": 2
+        },
+        {
+          "id": "17th_infantry_regiment",
+          "type": "infantry",
+          "cost": 2
+        },
+        {
+          "id": "the_war_machine",
+          "type": "order",
+          "cost": 2
+        },
+        {
+          "id": "the_war_machine",
+          "type": "order",
+          "cost": 2
+        },
+        {
+          "id": "gunship_mission",
+          "type": "order",
+          "cost": 2
+        },
+        {
+          "id": "gunship_mission",
+          "type": "order",
+          "cost": 2
+        },
+        {
+          "id": "m8_greyhound",
+          "type": "tank",
+          "cost": 1
+        },
+        {
+          "id": "m8_greyhound",
+          "type": "tank",
+          "cost": 1
+        },
+        {
+          "id": "506th_airborne",
+          "type": "infantry",
+          "cost": 1
+        },
+        {
+          "id": "506th_airborne",
+          "type": "infantry",
+          "cost": 1
+        },
+        {
+          "id": "lancaster_mk_i",
+          "type": "bomber",
+          "cost": 9
+        },
+        {
+          "id": "b24_liberator",
+          "type": "bomber",
+          "cost": 7
+        },
+        {
+          "id": "carpet_bombing",
+          "type": "order",
+          "cost": 7
+        },
+        {
+          "id": "b25_mitchell",
+          "type": "bomber",
+          "cost": 6
+        },
+        {
+          "id": "strategic_bombing",
+          "type": "order",
+          "cost": 6
+        },
+        {
+          "id": "stars_stripes",
+          "type": "order",
+          "cost": 5
+        },
+        {
+          "id": "war_bonds",
+          "type": "order",
+          "cost": 5
+        },
+        {
+          "id": "m4_sherman",
+          "type": "tank",
+          "cost": 4
+        },
+        {
+          "id": "death_from_above",
+          "type": "order",
+          "cost": 4
+        },
+        {
+          "id": "finest_hour",
+          "type": "order",
+          "cost": 2
+        },
+        {
+          "id": "swordfish_mk_i",
+          "type": "bomber",
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "id": 7436,
+      "name": "Improved Soviet starter deck",
+      "version": {
+        "id": 134,
+        "name": "v33"
+      },
+      "url": "https://www.kards.com/decks/7436",
+      "count": 39,
+      "type_counts": {
+        "infantry": 14,
+        "order": 22,
+        "tank": 1,
+        "artillery": 2
+      },
+      "cost_counts": {
+        "0": 3,
+        "1": 11,
+        "2": 10,
+        "3": 5,
+        "4": 3,
+        "5": 7
+      },
+      "cards": [
+        {
+          "id": "13th_rifle_regiment",
+          "type": "infantry",
+          "cost": 2
+        },
+        {
+          "id": "industrial_might",
+          "type": "order",
+          "cost": 2
+        },
+        {
+          "id": "4th_kuban_cossacks",
+          "type": "infantry",
+          "cost": 3
+        },
+        {
+          "id": "death_from_above",
+          "type": "order",
+          "cost": 4
+        },
+        {
+          "id": "the_alliance",
+          "type": "order",
+          "cost": 5
+        },
+        {
+          "id": "stars_stripes",
+          "type": "order",
+          "cost": 5
+        },
+        {
+          "id": "t34_1942",
+          "type": "tank",
+          "cost": 5
+        },
+        {
+          "id": "burning_sky",
+          "type": "order",
+          "cost": 1
+        },
+        {
+          "id": "burning_sky",
+          "type": "order",
+          "cost": 1
+        },
+        {
+          "id": "unity_is_strength",
+          "type": "order",
+          "cost": 2
+        },
+        {
+          "id": "unity_is_strength",
+          "type": "order",
+          "cost": 2
+        },
+        {
+          "id": "katyusha",
+          "type": "artillery",
+          "cost": 2
+        },
+        {
+          "id": "katyusha",
+          "type": "artillery",
+          "cost": 2
+        },
+        {
+          "id": "frontal_assault",
+          "type": "order",
+          "cost": 2
+        },
+        {
+          "id": "frontal_assault",
+          "type": "order",
+          "cost": 2
+        },
+        {
+          "id": "17th_infantry_regiment",
+          "type": "infantry",
+          "cost": 2
+        },
+        {
+          "id": "17th_infantry_regiment",
+          "type": "infantry",
+          "cost": 2
+        },
+        {
+          "id": "30th_regiment",
+          "type": "infantry",
+          "cost": 3
+        },
+        {
+          "id": "30th_regiment",
+          "type": "infantry",
+          "cost": 3
+        },
+        {
+          "id": "from_the_people",
+          "type": "order",
+          "cost": 3
+        },
+        {
+          "id": "from_the_people",
+          "type": "order",
+          "cost": 3
+        },
+        {
+          "id": "we_can_do_it",
+          "type": "order",
+          "cost": 5
+        },
+        {
+          "id": "we_can_do_it",
+          "type": "order",
+          "cost": 5
+        },
+        {
+          "id": "no_surrender",
+          "type": "order",
+          "cost": 5
+        },
+        {
+          "id": "no_surrender",
+          "type": "order",
+          "cost": 5
+        },
+        {
+          "id": "554th_rifle_regiment",
+          "type": "infantry",
+          "cost": 0
+        },
+        {
+          "id": "554th_rifle_regiment",
+          "type": "infantry",
+          "cost": 0
+        },
+        {
+          "id": "554th_rifle_regiment",
+          "type": "infantry",
+          "cost": 0
+        },
+        {
+          "id": "reserves",
+          "type": "order",
+          "cost": 1
+        },
+        {
+          "id": "reserves",
+          "type": "order",
+          "cost": 1
+        },
+        {
+          "id": "reserves",
+          "type": "order",
+          "cost": 1
+        },
+        {
+          "id": "bloody_sickle",
+          "type": "order",
+          "cost": 1
+        },
+        {
+          "id": "bloody_sickle",
+          "type": "order",
+          "cost": 1
+        },
+        {
+          "id": "bloody_sickle",
+          "type": "order",
+          "cost": 1
+        },
+        {
+          "id": "321st_rifle_regiment",
+          "type": "infantry",
+          "cost": 1
+        },
+        {
+          "id": "321st_rifle_regiment",
+          "type": "infantry",
+          "cost": 1
+        },
+        {
+          "id": "321st_rifle_regiment",
+          "type": "infantry",
+          "cost": 1
+        },
+        {
+          "id": "1005th_rifles",
+          "type": "infantry",
+          "cost": 4
+        },
+        {
+          "id": "1005th_rifles",
+          "type": "infantry",
+          "cost": 4
+        }
+      ]
+    }
+  ]
+}

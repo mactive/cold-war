@@ -1,0 +1,67 @@
+{
+  "mode": "built-in image_gen",
+  "reference": "https://store.steampowered.com/app/544810/KARDS/",
+  "base": "Use case: ui-mockup. Create ONE polished high fidelity 16:9 landscape PC military collectible card battle game UI concept, edge-to-edge full screen, not a photograph of a monitor and not a collage. User wants KARDS-inspired tactile vintage military card aesthetic, entirely Cold War setting. Original working title \"冷战\", small subtitle \"COLD WAR\". Front-on top-down board so cards and controls remain readable. All primary labels in clear simplified Chinese. Shared gameplay hierarchy: opponent identity and HQ health 20 top center; three enemy unit cards in upper support row, central horizontal frontline with two deployed cards, three friendly unit cards in lower support row, a fan of five hand cards across bottom center; player HQ health 18 bottom left; resource counter \"行动点 6/9\" and conspicuous \"结束回合\" button at right center. Card frames are elegant rectangular printed stock, small cost badge upper-left, dominant original painted military illustration, short unit name, two large attack/defense statistics along bottom. Preserve visible space between card rows; scenery and props confined to perimeter, 75% screen for usable game UI. Thin rules and precise typography, believable game screenshot with exquisite art direction and a strong focal hierarchy. No KARDS logo, no fantasy, no sci-fi holograms, no contemporary post-1991 weapons. Do not fill cards with illegible paragraph text. Add a small discreet concept index in upper-left.",
+  "variants": [
+    {
+      "id": "01",
+      "name": "经典军绿",
+      "slug": "classic-olive",
+      "detail": "CONCEPT 01. Closest to the classic KARDS tabletop feel. Deep olive woven military canvas on a dark wooden command desk, aged ivory cardboard cards, muted ochre brass UI, restrained dusty red and desaturated blue team markers. 1983 Central European Cold War setting. Original painterly card illustrations of T-72 tank, M60A3 tank, MiG-21 jet, F-4 Phantom jet, BMP-1, M113 and mechanized infantry with AKM and M16A1. On perimeter: folded paper map, analog field telephone with coiled cord, steel compass and enamel coffee cup. Warm practical desk-lamp glow, realistic subtle card shadows, rich physical materials, quiet tactical tension. Text index \"01 / 经典军绿\", center field label \"前线\". Cards large and readable, premium production-ready game UI."
+    },
+    {
+      "id": "02",
+      "name": "机密档案",
+      "slug": "classified-dossier",
+      "detail": "CONCEPT 02. Distinct bright warm ivory classified intelligence dossier design. Entire battle board is a faded cream 1980s Central Europe map on tan manila folders, fine black typewriter typography, crisp thin ink rules and red classification stamps. Cards look like declassified equipment recognition cards with cream borders and beautiful halftone painted illustrations of T-72, Leopard 1, F-4 Phantom, MiG-21, M113 and radio infantry. Very restrained burgundy for enemy and ink blue for friendly, dark charcoal text for excellent contrast. Perimeter has folder tabs, binder clips, film negatives, mechanical pencil and cropped rotary desk phone. Airy and light with much less environmental darkness than typical military games. Text index \"02 / 机密档案\". Frontline is a narrow red stamped dotted divider. The end-turn control resembles a dark-red stamped rectangular authorization button. Still unmistakably a playable card battle screen, not a document spread."
+    },
+    {
+      "id": "03",
+      "name": "红灯地堡",
+      "slug": "red-bunker",
+      "detail": "CONCEPT 03. Atmospheric 1983 nuclear command bunker. Charcoal-painted steel tactical tabletop with subtle scratches, dark graphite UI panels, warm ivory card faces and restrained emergency vermilion edge lighting. Mechanical DEFCON indicator with five discrete lamps along top-right. Perimeter glimpses of red corded hotline telephone, analog gauge, industrial switches and a paper situation map. Original painted cards show T-80B, M1 Abrams (1980s version), MiG-23, F-4 Phantom, BMP-2 and mechanized troops. Overhead red practical light balanced by soft neutral light on all cards so card art is clearly visible. Opponent markers dark red, friendly amber. Text index \"03 / 红灯地堡\". Cold War tension without a nuclear explosion, luxurious cinematic but usable UI, no heavy bloom. End turn is a chunky guarded red physical switch-shaped button with readable \"结束回合\"."
+    },
+    {
+      "id": "04",
+      "name": "海军蓝",
+      "slug": "naval-blue",
+      "detail": "CONCEPT 04. North Atlantic naval operations room, 1985. Beautiful deep desaturated navy blue chart table, off-white card stock with slate-blue thin borders, restrained copper-brass instruments and pale seafoam team accents. Background is a sophisticated bathymetric ocean chart with understated contour lines. Original realistic gouache card art showing Oliver Hazard Perry frigate, Soviet Kilo-class submarine, F-14A Tomcat, Sea Harrier, P-3 Orion and naval infantry. Two naval vessel cards in the frontline. At perimeter only: parallel navigation ruler, brass dividers, analog sonar scope and a gray corded shipboard telephone. Cool overhead light with a warm navigation lamp. Small text index \"04 / 海军蓝\"; other labels \"北大西洋\", \"前线\". Quiet luxurious maritime feeling, stronger blue identity than olive military tables. Minimal microtext. No invented quotations, slogans or filler text anywhere."
+    },
+    {
+      "id": "05",
+      "name": "柏林前线",
+      "slug": "berlin-frontline",
+      "detail": "CONCEPT 05. Berlin sector, fictional 1983 confrontation. The battle board uses flat dark gray concrete and a large weathered urban street map, with subtle physical chipped concrete borders; ivory cards and powerful restrained checkpoint orange signal accents, small desaturated blue-red faction cues. Crisp card UI with a strong architectural grid and generous breathing room. Original painted illustrations of M60A3 tank, T-72, Leopard 1, BMP-1, MiG-21 and mechanized soldiers with 1980s weapons. Perimeter storytelling: cropped checkpoint document, compact 1980s radio, flashlight, a Berlin transit diagram, and a diagonal painted red-white checkpoint barrier detail. Smoky cool daylight, documentary European urban Cold War atmosphere. Small index \"05 / 柏林前线\". A very subtle Berlin skyline is printed into the central frontline band, not a giant landscape blocking the board. Clearly a premium tactical card game UI. No invented quotations, slogans or filler text."
+    },
+    {
+      "id": "06",
+      "name": "越战丛林",
+      "slug": "jungle-field-command",
+      "detail": "CONCEPT 06. Vietnam field command table, 1968, historically coherent equipment only from that era. Warm khaki map cloth and dark jungle green damp canvas, bleached tan rectangular card frames, muted faded vermilion enemy marks, amber end-turn button. Painted card illustrations: UH-1 Huey helicopter, M48 Patton tank, M113 APC, MiG-21, infantry with AK-47 and M16A1, towed field artillery. Top-down battlefield still broad and readable with three distinct unit rows. Perimeter: a cropped PRC-25 radio, olive canteen, metal compass, dog tags, grease pencil and folded contour map. Dappled warm daylight with leaf shadows confined to margins, premium tactile material detail. Small index \"06 / 越战丛林\", theater label \"1968 · 战地指挥所\". Cards bright and legible, very restrained wear, evocative humid atmosphere. No equipment developed after 1968. No invented quotations, slogans or filler text."
+    },
+    {
+      "id": "07",
+      "name": "北极基地",
+      "slug": "arctic-base",
+      "detail": "CONCEPT 07. Arctic command station, 1985. Distinct clean frost-gray and pale desaturated ice-blue palette, dark charcoal type, only small signal orange accents. The tactical table is off-white enamel steel with an arctic topographic paper chart and very fine blue grid, not ice or fantasy snow. Light gray thick card stock with dark slate frames and realistic painted cold-weather card art: T-80B, Leopard 1 in winter camouflage, MiG-31, F-16A, BV 206 tracked carrier and winter infantry. Subtle frost on peripheral steel edge, analog green radar dial, coiled field handset, thermal flask and folded glove cropped at margins. Cool diffuse station lighting with warm orange status LEDs. Small index \"07 / 北极基地\". Elegant spacious pale military interface, excellent contrast and clear typography; tactile cards stay largest focal area. No invented quotations, slogans or filler text."
+    },
+    {
+      "id": "08",
+      "name": "雷达终端",
+      "slug": "radar-terminal",
+      "detail": "CONCEPT 08. Analog-digital Cold War command console, 1982. A black-green CRT radar plotting surface integrated into a real green-painted steel desk, sparse fine phosphor-green grid and subtle scanlines. IMPORTANT physical ivory paper cards with richly painted full-color military illustrations placed on the dark plotting surface, not glowing hologram cards. Card subjects T-72, M60A3, MiG-23, F-4 Phantom, BMP-1, AH-1 Cobra. Green monochrome segmented status counters along frame, amber end-turn physical button, red enemy status indicator. Periphery includes tactile keyboard keys, rotary dials, short ticker-tape strip and square small CRT radar. Pale green frontline rule, orderly radar-sector layout with ample dark negative space. Small index \"08 / 雷达终端\". Authentic 1980s analog computing, not modern cyberpunk; no neon purple, no holograms, no decorative HUD clutter. No invented quotations, slogans or filler text."
+    },
+    {
+      "id": "09",
+      "name": "冷战宣传画",
+      "slug": "screenprint-poster",
+      "detail": "CONCEPT 09. The entire game UI art direction uses beautifully designed 1960s-1980s screenprinted Cold War military editorial/poster illustration: flat cream paper, bold muted brick-red and petroleum-blue geometric masses, dark black typography, limited-color halftones, strict Swiss grid and slightly misregistered ink. Still a complete playable card battle UI with individual rectangular paper cards, battlefield rows, HQ health and five-card hand. Original military card illustrations show recognizable T-55, MiG-21, M60, F-4, M113 and Cold War infantry in beautiful angular gouache and silkscreen style rather than realistic photos. Tableback is minimal printed paper with graphic route lines, mostly cream negative space. Perimeter only a graphic cropped ruler and 1980s military folder corner. Big clear numeric card stats. Small index \"09 / 冷战宣传画\". Sophisticated collectible board-game graphic design, no portraits of political leaders, no persuasive propaganda slogans, no text blocks, no actual KARDS branding. A much more graphic and illustrative visual direction than the other scenes."
+    },
+    {
+      "id": "10",
+      "name": "简洁军工",
+      "slug": "refined-industrial",
+      "detail": "CONCEPT 10. Refined contemporary game UX interpreting 1980s military industrial design. The most restrained and polished direction: flat dark slate-gray textile tactical table, precisely ruled thin silver borders, off-white card stock, warm muted mustard selected-state accent, subtle burgundy enemy marker and slate-blue friendly marker. Tactile but exceptionally clean; maximum space and clarity, no clutter. Cards use beautiful realist oil-painted cropped illustrations of T-72, M1 Abrams early model, MiG-23, F-4 Phantom, BMP-2 and M113. Cards should be tall portrait rectangles rather than square, with clean small header and strongly readable attack/defense numbers. One small analog stopwatch and cropped paper map at edges only. Short neat left combat log; right resource control and large clean brass-colored end-turn button. Small index \"10 / 简洁军工\". Contemporary information hierarchy but authentic Cold War material language, near-orthographic view, soft shadows. No gradients resembling mobile fantasy games, no invented quotations, slogans or filler text."
+    }
+  ]
+}

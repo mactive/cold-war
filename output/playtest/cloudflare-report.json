@@ -1,0 +1,14 @@
+{
+  "url": "https://cold-war.pages.dev/",
+  "status": 200,
+  "date": "2026-10-12T01:52:41.361Z",
+  "errors": [],
+  "checks": [
+    "production page and assets",
+    "start battle",
+    "WebGL canvas",
+    "no dev debug API",
+    "drag HQ attack and local save",
+    "100-game production worker"
+  ]
+}

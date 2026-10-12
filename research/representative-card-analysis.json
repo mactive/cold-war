@@ -1,0 +1,242 @@
+[
+  {
+    "card_id": "89th_infantry_regiment",
+    "effect_summary": "守护型低费步兵。",
+    "design_role": "用较少资源留下保护总部的支点。",
+    "coldwar_role_proposal": "阵地防御步兵"
+  },
+  {
+    "card_id": "109th_combat_engineers",
+    "effect_summary": "烟幕；其他友军推进前线时增加其攻击。",
+    "design_role": "自己不急于行动，支持连续推进。",
+    "coldwar_role_proposal": "战斗工兵／前线指挥"
+  },
+  {
+    "card_id": "37_mm_antiaircraft_gun",
+    "effect_summary": "烟幕；让敌方空军每次行动多付 2 点。",
+    "design_role": "通过经济阻力防空，而非只造成伤害。",
+    "coldwar_role_proposal": "雷达防空网络"
+  },
+  {
+    "card_id": "bloody_sickle",
+    "effect_summary": "对一个单位与己方 HQ 各打 1，补一张手牌。",
+    "design_role": "用总部耐久换解场效率和手牌循环。",
+    "coldwar_role_proposal": "紧急火力协调"
+  },
+  {
+    "card_id": "type_93",
+    "effect_summary": "为其他友方单位提供 1 点攻击光环。",
+    "design_role": "单位越多，单张支援牌收益越高。",
+    "coldwar_role_proposal": "通信与协同支援车"
+  },
+  {
+    "card_id": "97th_rifles",
+    "effect_summary": "守护；死亡后将指定后续步兵洗入牌库并抽牌。",
+    "design_role": "早期防守能接入后续兵力链。",
+    "coldwar_role_proposal": "预备役接替"
+  },
+  {
+    "card_id": "12th_guards_mechanised",
+    "effect_summary": "烟幕；部署攻击至少 4 的友方坦克可令其升为老兵。",
+    "design_role": "先铺协同单位，再部署主力触发成长。",
+    "coldwar_role_proposal": "装甲步兵协同"
+  },
+  {
+    "card_id": "178th_guard_rifles",
+    "effect_summary": "守护；死亡后留下步兵第 89 团。",
+    "design_role": "一个位置可以分阶段提供两次保护。",
+    "coldwar_role_proposal": "纵深防御梯队"
+  },
+  {
+    "card_id": "45_mm_antitank_gun",
+    "effect_summary": "伏击；对抗坦克时增加 2 点攻击。",
+    "design_role": "通过专门克制弥补普通数值较低。",
+    "coldwar_role_proposal": "反坦克导弹班"
+  },
+  {
+    "card_id": "katyusha",
+    "effect_summary": "闪击；每次攻击还额外造成随机 0 或 1 点伤害。",
+    "design_role": "即刻远程干预，带有可控范围的随机性。",
+    "coldwar_role_proposal": "火箭炮支援"
+  },
+  {
+    "card_id": "supply_shipment",
+    "effect_summary": "给前线一个单位增加 2 攻、3 防。",
+    "design_role": "占线后才能把补给转化为场面优势。",
+    "coldwar_role_proposal": "前沿补给"
+  },
+  {
+    "card_id": "the_war_machine",
+    "effect_summary": "增加一个指挥点容量。",
+    "design_role": "牺牲即时场面，提前进入高费阶段。",
+    "coldwar_role_proposal": "动员生产"
+  },
+  {
+    "card_id": "t19_howitzer",
+    "effect_summary": "被其攻击的单位本回合失去守护。",
+    "design_role": "先拆保护，再让其他单位攻击关键目标。",
+    "coldwar_role_proposal": "火力压制守备阵地"
+  },
+  {
+    "card_id": "sudden_strike",
+    "effect_summary": "直接消灭部署费不高于 2 的单位。",
+    "design_role": "低费解牌受目标范围约束。",
+    "coldwar_role_proposal": "快速反应打击"
+  },
+  {
+    "card_id": "siberian_transfer",
+    "effect_summary": "提供一辆临时 T-34 1942，己方回合结束会被消灭。",
+    "design_role": "短期获得大型单位，需要额外支付行动费。",
+    "coldwar_role_proposal": "临时战区增援"
+  },
+  {
+    "card_id": "ural_factories",
+    "effect_summary": "牺牲一支友军，随机换成同国、费用高 1 的单位，留在同排。",
+    "design_role": "把受伤或即将消失的单位转换为新资源。",
+    "coldwar_role_proposal": "战地整编／装备换装"
+  },
+  {
+    "card_id": "enemy_spotted",
+    "effect_summary": "预先激活；对方夺取前线时触发抽 3。",
+    "design_role": "让对手的推进变成己方补牌机会。",
+    "coldwar_role_proposal": "预警侦察"
+  },
+  {
+    "card_id": "interception",
+    "effect_summary": "预先激活；反制指向友方目标的敌方指令。",
+    "design_role": "保护高价值目标，但触发条件限制覆盖面。",
+    "coldwar_role_proposal": "反情报／电子对抗"
+  },
+  {
+    "card_id": "careless_talk",
+    "effect_summary": "预先激活；对方单位部署时给予 3 点伤害。",
+    "design_role": "可被低价值部署试探，形成出牌顺序博弈。",
+    "coldwar_role_proposal": "预设火力伏击"
+  },
+  {
+    "card_id": "air_defense",
+    "effect_summary": "预先激活；攻击者受 3 点伤害，若为空军则直接消灭。",
+    "design_role": "同一反制有普通收益和专门防空收益。",
+    "coldwar_role_proposal": "防空导弹待命"
+  },
+  {
+    "card_id": "t70",
+    "effect_summary": "守护型坦克，没有额外效果文本。",
+    "design_role": "基础兵种与一个关键词即可形成明确角色。",
+    "coldwar_role_proposal": "侦察／掩护装甲"
+  },
+  {
+    "card_id": "m18_hellcat",
+    "effect_summary": "闪击；对坦克伤害翻倍。",
+    "design_role": "以低防御换取快速反装甲能力。",
+    "coldwar_role_proposal": "机动反坦克平台"
+  },
+  {
+    "card_id": "m7_priest",
+    "effect_summary": "部署时，若己方控制前线则获得额外攻防。",
+    "design_role": "炮兵收益与地面部队争夺前线相连。",
+    "coldwar_role_proposal": "自行火炮协同"
+  },
+  {
+    "card_id": "ot34",
+    "effect_summary": "对步兵和 HQ 的伤害翻倍。",
+    "design_role": "专门打击软目标，不必各方面都强。",
+    "coldwar_role_proposal": "突击工程装甲"
+  },
+  {
+    "card_id": "p40_warhawk",
+    "effect_summary": "对陆军或 HQ 的伤害额外增加 3。",
+    "design_role": "同一飞机对空与对地能力可以不同。",
+    "coldwar_role_proposal": "对地攻击机角色"
+  },
+  {
+    "card_id": "from_the_people",
+    "effect_summary": "对一个单位打 3 点伤害。",
+    "design_role": "基础点杀提供平衡标尺。",
+    "coldwar_role_proposal": "战术火力支援"
+  },
+  {
+    "card_id": "the_hammer",
+    "effect_summary": "对一个陆军打 6 点伤害。",
+    "design_role": "目标范围更窄，以换取更高伤害。",
+    "coldwar_role_proposal": "重型反装甲打击"
+  },
+  {
+    "card_id": "hms_illustrious",
+    "effect_summary": "在后排添加两架剑鱼 Mk I 并赋予闪击。",
+    "design_role": "一张指令产生多个作战单位，但受空位限制。",
+    "coldwar_role_proposal": "航母航空支援"
+  },
+  {
+    "card_id": "m4_sherman",
+    "effect_summary": "部署时，若前线有己方美国单位便抽 2。",
+    "design_role": "占线能带来手牌收益，形成进攻续航。",
+    "coldwar_role_proposal": "主战坦克与补给体系"
+  },
+  {
+    "card_id": "a6m2_zero",
+    "effect_summary": "伏击；部署时提供一次 1 点伤害。",
+    "design_role": "入场即影响场面，同时带防守反击价值。",
+    "coldwar_role_proposal": "战斗机快速介入"
+  },
+  {
+    "card_id": "t3476d",
+    "effect_summary": "重甲 1；死亡后抽取 T-34，并降低该牌部署费 2。",
+    "design_role": "装甲单位之间形成持续资源链。",
+    "coldwar_role_proposal": "系列装备与后续补充"
+  },
+  {
+    "card_id": "t34_1942",
+    "effect_summary": "闪击坦克，没有额外效果文本。",
+    "design_role": "用最直接的方式体现移动与攻击费用。",
+    "coldwar_role_proposal": "机动装甲预备队"
+  },
+  {
+    "card_id": "war_bonds",
+    "effect_summary": "增加两个指挥点容量，下次己方回合额外抽一张。",
+    "design_role": "资源增长与延迟补牌合并，但当前回合投入较大。",
+    "coldwar_role_proposal": "战时财政／后勤扩张"
+  },
+  {
+    "card_id": "p51_mustang",
+    "effect_summary": "部署时随机对一支敌空军造成 5 点伤害。",
+    "design_role": "高费战斗机带入场制空收益。",
+    "coldwar_role_proposal": "制空拦截机"
+  },
+  {
+    "card_id": "strategic_bombing",
+    "effect_summary": "对敌后排所有目标打 3，并削减一个敌方指挥点容量。",
+    "design_role": "同时施加场面、HQ 和经济压力。",
+    "coldwar_role_proposal": "纵深基础设施打击"
+  },
+  {
+    "card_id": "t3485_1945",
+    "effect_summary": "闪击、重甲 1、冲击；受特殊保护，不能被抑制或失去冲击。",
+    "design_role": "精英卡用能力组合创造独特突破点。",
+    "coldwar_role_proposal": "精锐装甲突击群"
+  },
+  {
+    "card_id": "carpet_bombing",
+    "effect_summary": "对所有敌方单位打 3，不包括 HQ。",
+    "design_role": "惩罚铺场，与只打后排的范围指令不同。",
+    "coldwar_role_proposal": "区域火力覆盖"
+  },
+  {
+    "card_id": "b17_flying_fortress",
+    "effect_summary": "重甲 1；部署时随机消灭一支敌军。",
+    "design_role": "高费用同时购买解场与持续威胁。",
+    "coldwar_role_proposal": "重型航空支援"
+  },
+  {
+    "card_id": "tiger_ih",
+    "effect_summary": "重甲 2，并免疫压制。",
+    "design_role": "不易被小伤害和停止行动效果拖住，但行动昂贵。",
+    "coldwar_role_proposal": "重装主战坦克"
+  },
+  {
+    "card_id": "10th_engineers_battalion",
+    "effect_summary": "给相邻陆军提供 2 点攻击光环；本次已在预备池。",
+    "design_role": "展现左右顺序价值，也说明旧教程示例牌未必仍活跃。",
+    "coldwar_role_proposal": "联合火力协调组"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "title": "铁幕前线 · IRON FRONT",
+  "errors": [],
+  "webgl": 1,
+  "checks": [
+    "faction selection",
+    "mulligan",
+    "end turn + AI",
+    "reload + resume",
+    "card search/detail",
+    "100-game worker simulation",
+    "deploy and resource cost",
+    "frontline movement",
+    "1600x1000 + 1280x720 layouts"
+  ]
+}
