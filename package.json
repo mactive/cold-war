@@ -15,7 +15,13 @@
     "prebuild": "npm run import",
     "predev": "npm run import",
     "test:browser": "node scripts/browser-smoke.mjs && node scripts/browser-combat.mjs && node scripts/browser-drag.mjs",
-    "format": "prettier --write src scripts tests vite.config.js index.html"
+    "format": "prettier --write src scripts tests vite.config.js index.html",
+    "dev:worker": "wrangler dev --local --port 8787",
+    "deploy": "npm run build && wrangler deploy",
+    "db:migrate:local": "wrangler d1 migrations apply cold-war-cms --local",
+    "db:migrate:remote": "wrangler d1 migrations apply cold-war-cms --remote",
+    "test:cms": "node scripts/test-cms-api.mjs && node scripts/test-cms-auth.mjs && node scripts/browser-cms.mjs",
+    "test:multiplayer": "node scripts/test-multiplayer-api.mjs && node scripts/test-multiplayer-match.mjs && node scripts/browser-multiplayer.mjs"
   },
   "dependencies": {
     "three": "^0.180.0"
@@ -23,6 +29,7 @@
   "devDependencies": {
     "@playwright/test": "^1.55.1",
     "prettier": "^3.9.10",
-    "vite": "^7.1.7"
+    "vite": "^7.1.7",
+    "wrangler": "^4.149.0"
   }
 }

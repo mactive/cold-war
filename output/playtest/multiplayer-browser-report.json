@@ -1,0 +1,16 @@
+{
+  "base": "https://cold-war.mactive.workers.dev",
+  "roomId": "cbdb1a638fdc4362",
+  "checks": [
+    "two independent browser identities, share link, opposite random factions",
+    "both players confirm opening hands",
+    "drag attack settles on server and synchronizes damage",
+    "both players deploy, pass turns, move and share authoritative board",
+    "refresh resumes room and browser identity",
+    "network loss reports and reconnects automatically",
+    "resign, winner, points synchronized to both players",
+    "manual logout clears and revokes browser identity",
+    "admin lists room, logs, final score and full replay verification"
+  ],
+  "errors": []
+}

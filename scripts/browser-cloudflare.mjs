@@ -1,7 +1,7 @@
 import { chromium, expect } from "@playwright/test";
 import fs from "node:fs";
 import * as E from "../src/game/engine.js";
-const url = process.argv[2] ?? "https://cold-war.pages.dev/";
+const url = process.argv[2] ?? "https://cold-war.mactive.workers.dev/";
 const browser = await chromium.launch({ headless: true, channel: "chrome" });
 const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
 const errors = [];

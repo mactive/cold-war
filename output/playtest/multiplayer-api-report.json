@@ -1,0 +1,24 @@
+{
+  "base": "http://127.0.0.1:8787",
+  "roomId": "5b78469bbc97430b",
+  "checks": [
+    "anonymous and nonmember state reads denied",
+    "opposed random factions and per-player hidden information",
+    "independent mulligan transitions to battle",
+    "out-of-turn/stale/tampered requests, idempotent duplicate settlement",
+    "concurrent commands commit exactly one state/log revision",
+    "live replay is pinned to a consistent revision during concurrent moves",
+    "logout revokes identity, forfeits match, server-derived scoring",
+    "admin audit: accepted/rejected log storage and full deterministic replay"
+  ],
+  "verify": {
+    "verified": true,
+    "revision": 10,
+    "actions": 8,
+    "stateHash": "0a03502aae6e0437a50bbc3bd5595a776760a24df90466e762524470fec0d6ea",
+    "points": [
+      3,
+      0
+    ]
+  }
+}

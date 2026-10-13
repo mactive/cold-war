@@ -257,7 +257,7 @@ h1 i {
   background-image: url("/assets/west-emblems.png");
 }
 .emblem.east {
-  background-image: url("/assets/east-emblems.png");
+  background-image: url("/assets/east-emblems.png?v=vietnam-20261012");
   background-position: 9.1% 95%;
 }
 .enemy-hand {
@@ -1867,7 +1867,7 @@ h1 i {
   background-position: 13.9% 92%;
 }
 .card-back {
-  background-image: url("/assets/east-emblems.png");
+  background-image: url("/assets/east-emblems.png?v=vietnam-20261012");
   background-size: 487.5% 184%;
   background-position: 8.5% 31%;
   border: 1px solid #ad8952;
@@ -2006,5 +2006,122 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .combat-damage {
     animation: none;
+  }
+}
+/* Shared-room command lobby */
+.modal.lobby {
+  width: min(980px, 94vw);
+  max-height: 90vh;
+  overflow: auto;
+  padding: 38px;
+}
+.modal.lobby > p {
+  line-height: 1.7;
+  color: #c6c0ae;
+}
+.identity-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 18px;
+  background: #222b27;
+  border: 1px solid #5f6852;
+  margin: 20px 0;
+}
+.identity-strip small {
+  display: block;
+  margin-top: 6px;
+  color: #aaa;
+}
+.room-create-row {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0 28px;
+}
+.room-create-row input {
+  flex: 1;
+  min-width: 120px;
+}
+.lobby input,
+.room-wait input,
+.network-menu input {
+  border: 1px solid #756846;
+  background: #151d19;
+  color: #efe4c6;
+  padding: 13px;
+  font: inherit;
+  border-radius: 3px;
+}
+.identity-create {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+.room-list {
+  max-height: 300px;
+  overflow: auto;
+}
+.room-list > button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 8px;
+  border: 1px solid #554f40;
+  background: #202722;
+  color: #d7d0bd;
+}
+.room-list small {
+  color: #9a9e92;
+}
+.room-list > p {
+  padding: 30px;
+  text-align: center;
+  color: #a6aa9a;
+}
+.network-error {
+  color: #f3a995 !important;
+  border: 1px solid #b7604c;
+  padding: 12px;
+}
+.invite-label {
+  display: block;
+  margin: 20px 0;
+}
+.invite-label input {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+}
+.room-wait .secondary,
+.network-menu button {
+  margin: 8px 8px 8px 0;
+}
+.network-menu > p {
+  line-height: 1.7;
+}
+.session em {
+  font-style: normal;
+  font-size: 11px;
+}
+.multiplayer-entry {
+  width: 100%;
+  margin: 8px 0;
+}
+.modal .note {
+  line-height: 1.6;
+}
+@media (max-width: 800px) {
+  .room-create-row,
+  .identity-create,
+  .identity-strip {
+    flex-wrap: wrap;
+  }
+  .room-list small {
+    display: none;
   }
 }

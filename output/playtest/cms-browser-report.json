@@ -1,0 +1,17 @@
+{
+  "base": "http://127.0.0.1:8787",
+  "checks": [
+    "admin login and session persistence",
+    "card edit and D1 persistence",
+    "game consumes cloud config",
+    "special effect readonly",
+    "AI weights update",
+    "faction edit",
+    "invalid deck rejected",
+    "version restore",
+    "old match snapshot preserved",
+    "1100px layout",
+    "logout protection"
+  ],
+  "errors": []
+}

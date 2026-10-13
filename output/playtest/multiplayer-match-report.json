@@ -1,0 +1,26 @@
+{
+  "base": "http://127.0.0.1:8787",
+  "roomId": "9eca5bc876374d53",
+  "actions": 91,
+  "attacks": 26,
+  "plays": 30,
+  "turns": 25,
+  "hq": [
+    -2,
+    8
+  ],
+  "winner": 1,
+  "score": [
+    0,
+    3
+  ],
+  "verify": {
+    "verified": true,
+    "actions": 93,
+    "stateHash": "233bf8fcacd5063ce69997c29153b61e1ea99e691e9e6a21636e0682f5b9e24d",
+    "points": [
+      0,
+      3
+    ]
+  }
+}

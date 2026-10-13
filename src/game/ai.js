@@ -1,3 +1,4 @@
+import { strategies } from "../content/runtime.js";
 import {
   units,
   find,
@@ -16,11 +17,15 @@ import {
   random,
   controls,
 } from "./engine.js";
+const weights = (s) =>
+  strategies.find((x) => x.faction === s.players[s.active].faction).weights;
 function worth(s, u) {
   return u?.hq
     ? 8
     : u
-      ? def(u).cost + (u.attack ?? 0) * 0.45 + (u.hp ?? 0) * 0.25
+      ? def(u).cost +
+        (u.attack ?? 0) * weights(s).targetAttack +
+        (u.hp ?? 0) * weights(s).targetDefense
       : 0;
 }
 export function autoChoices(s, p, h) {
@@ -57,6 +62,7 @@ export function autoChoices(s, p, h) {
 }
 export function chooseAction(s) {
   if (s.phase !== "play") return null;
+  const w = weights(s);
   const p = s.active,
     pl = s.players[p],
     candidates = [];
@@ -66,17 +72,18 @@ export function chooseAction(s) {
         kind: "move",
         uid: u.uid,
         score:
-          3 +
-          u.attack * 0.28 +
-          (def(u).type === "坦克" ? 1 : 0) +
-          (controls(s, p) ? 0 : 1),
+          w.moveBase +
+          u.attack * w.moveAttack +
+          (def(u).type === "坦克" ? w.tankAdvance : 0) +
+          (controls(s, p) ? 0 : w.captureFront),
       });
     for (const t of attackTargets(s, u)) {
       const damage = Math.max(0, attackValue(s, u, t, true) - (t.armor ?? 0));
-      let score = damage * 0.9;
-      if (t.hq) score = damage >= s.players[t.p].hp ? 10000 : damage * 0.85 + 1;
+      let score = damage * w.attackDamage;
+      if (t.hq)
+        score = damage >= s.players[t.p].hp ? 10000 : damage * w.hqDamage + 1;
       else {
-        if (damage >= t.hp) score += worth(s, t) + 2;
+        if (damage >= t.hp) score += worth(s, t) + w.killBonus;
         const safe =
           def(u).type === "炮兵" ||
           def(u).type === "轰炸机" ||
@@ -84,13 +91,13 @@ export function chooseAction(s) {
             ["步兵", "坦克", "炮兵"].includes(def(t).type)) ||
           u.shock;
         if (!safe && attackValue(s, t) >= u.hp + (u.armor ?? 0))
-          score -= worth(s, u) * 0.65;
+          score -= worth(s, u) * w.tradePenalty;
       }
       candidates.push({
         kind: "attack",
         uid: u.uid,
         target: t.uid,
-        score: score - operationCost(s, u) * 0.1,
+        score: score - operationCost(s, u) * w.operationPenalty,
       });
     }
   }
@@ -102,23 +109,23 @@ export function chooseAction(s) {
     const cost = playCost(s, p, h);
     if (c.attack !== null)
       score =
-        2 +
-        c.attack * 0.5 +
-        c.defense * 0.25 +
-        (pl.rear.length < 2 ? 2 : 0) -
-        c.cost * 0.15;
-    else if (c.type === "反制") score = 0.8;
+        w.deployBase +
+        c.attack * w.deployAttack +
+        c.defense * w.deployDefense +
+        (pl.rear.length < 2 ? w.emptyRearBonus : 0) -
+        c.cost * w.deployCostPenalty;
+    else if (c.type === "反制") score = w.counterScore;
     else {
-      score = 2.5;
+      score = w.orderBase;
       const target = find(s, choices[0]?.[0]);
       if (["N-31", "N-32", "N-36", "W-30", "W-33", "W-36"].includes(c.id))
-        score = worth(s, target) * 0.9 + 2;
+        score = worth(s, target) * w.removalMultiplier + 2;
       if (["N-25", "N-28", "W-35"].includes(c.id))
-        score = pl.hand.length <= 5 ? 5 : 1;
+        score = pl.hand.length <= 5 ? w.drawPriority : 1;
       if (["N-26", "N-30", "W-27"].includes(c.id))
-        score = pl.rear.length <= 2 ? 5 : 1;
+        score = pl.rear.length <= 2 ? w.swarmPriority : 1;
       if (["N-29", "W-28", "W-32"].includes(c.id))
-        score = units(s, p).filter((u) => !u.attacked).length * 1.1;
+        score = units(s, p).filter((u) => !u.attacked).length * w.buffUnit;
       if (c.id === "W-31") score = choices[0].length ? 2 : -1;
       if (c.id === "W-34") score = s.players[1 - p].hp <= 3 ? 10000 : 3;
       if (c.id === "N-33")
@@ -129,7 +136,7 @@ export function chooseAction(s) {
         kind: "play",
         uid: h.uid,
         choices,
-        score: score - cost * 0.06,
+        score: score - cost * w.playCostPenalty,
       });
   }
   candidates.sort((a, b) => b.score - a.score);

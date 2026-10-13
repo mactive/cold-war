@@ -1,7 +1,7 @@
 {
-  "url": "https://cold-war.pages.dev/",
+  "url": "https://cold-war.mactive.workers.dev/",
   "status": 200,
-  "date": "2026-10-12T01:52:41.361Z",
+  "date": "2026-10-12T10:54:20.721Z",
   "errors": [],
   "checks": [
     "production page and assets",

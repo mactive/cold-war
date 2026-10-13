@@ -1,0 +1,11 @@
+{
+  "base": "http://127.0.0.1:8787",
+  "checks": [
+    "anonymous rejection, password verification, secure session cookie",
+    "CSRF, cross-origin and invalid-rule edits rejected",
+    "atomic concurrent edit conflict, public data and version history",
+    "version restore",
+    "logout revokes server session"
+  ],
+  "errors": []
+}

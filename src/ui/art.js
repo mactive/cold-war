@@ -1,3 +1,4 @@
+import { factions } from "../content/runtime.js";
 export function artIndex(c) {
   const n = c.id[0] === "N";
   if (c.fictional) return 14;
@@ -25,7 +26,7 @@ export const symbols = {
   指令: "!",
   反制: "↯",
 };
-export const factionName = (f) => (f === "N" ? "美国 / 北约" : "苏联 / 华约");
+export const factionName = (f) => factions.find((x) => x.id === f)?.name ?? f;
 export function emblem(f, cls = "") {
   return `<span class="emblem ${f === "N" ? "west" : "east"} ${cls}" aria-hidden="true"></span>`;
 }

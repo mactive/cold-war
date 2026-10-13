@@ -1,6 +1,8 @@
+import { installContent } from "../content/runtime.js";
 import { createGame, startGame, assertState, def } from "./engine.js";
 import { runAITurn } from "./ai.js";
 onmessage = ({ data }) => {
+  if (data.content) installContent(data.content);
   const report = {
     completed: 0,
     wins: { N: 0, W: 0 },
